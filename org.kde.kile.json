@@ -514,13 +514,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-7.1.0-37.tar.gz",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-37.tar.gz",
                     "sha256": "9ac29ab1e68590c21641e9f0533e0238e22146cf2ef1a61b50771762cabcec60",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
                         "stable-only": true,
-                        "url-template": "https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-$version.tar.gz"
+                        "url-template": "https://imagemagick.org/archive/releases/ImageMagick-$version.tar.gz"
                     }
                 }
             ]
