@@ -505,6 +505,9 @@
         },
         {
             "name": "imagemagick",
+            "config-opts": [
+                "--disable-static"
+            ],
             "cleanup": [
                 "/etc",
                 "/share",
