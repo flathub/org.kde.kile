@@ -327,8 +327,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-22.06.0.tar.xz",
-                    "sha256": "a0f9aaa3918bad781039fc307a635652a14d1b391cd559b66edec4bedba3c5d7",
+                    "url": "https://poppler.freedesktop.org/poppler-22.07.0.tar.xz",
+                    "sha256": "420230c5c43782e2151259b3e523e632f4861342aad70e7e20b8773d9eaf3428",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -411,8 +411,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/libkexiv2-22.04.2.tar.xz",
-                    "sha256": "e395c8cc4291dd03e97b739b9b8a224a3c5be335d19caded97c5af902cdd317b",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkexiv2-22.04.3.tar.xz",
+                    "sha256": "29d0bec9eda4636252914e35001362f3f6ffaeb4be0f0b43455316e893f9835c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -492,8 +492,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/konsole-22.04.2.tar.xz",
-                    "sha256": "97d1e98cd715b03fba9a0c2b0f33d9d19a8737531d34c7120af74cf7c5337111",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/konsole-22.04.3.tar.xz",
+                    "sha256": "148f65891318e6a6f31793c9535e2bf32068b1cae8c5026e54f360bea484d9a7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
