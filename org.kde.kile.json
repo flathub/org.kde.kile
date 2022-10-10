@@ -369,8 +369,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.98/portingAids/kjs-5.98.0.tar.xz",
-                    "sha256": "339ec922b07a837f7c7a341ad0d5e63edb94e3838c86009a0dd0e9b08a0a3a0e",
+                    "url": "https://download.kde.org/stable/frameworks/5.99/portingAids/kjs-5.99.0.tar.xz",
+                    "sha256": "40f11254a4c67d679fbda594bf0c5029bf88d555bdb7d31bf4807a28df085e4b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -517,8 +517,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-49.tar.gz",
-                    "sha256": "a664f3dcb63ec29fe832b4b517419ac3ae7a892f6d8eed411d71b3c0ffd320f9",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-50.tar.gz",
+                    "sha256": "9798aeb48b53310722b54dcefdad69d83aa2f9675d0076a0cd647f8093294227",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
