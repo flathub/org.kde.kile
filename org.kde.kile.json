@@ -327,8 +327,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-22.11.0.tar.xz",
-                    "sha256": "093ba9844ed774285517361c15e21a31ba4df278a499263d4403cca74f2da828",
+                    "url": "https://poppler.freedesktop.org/poppler-22.12.0.tar.xz",
+                    "sha256": "d9aa9cacdfbd0f8e98fc2b3bb008e645597ed480685757c3e7bc74b4278d15c0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -517,8 +517,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-52.tar.gz",
-                    "sha256": "a41f0d05053b48b57800a1ac2aa21cec1db0077514d011b5c324f8ec2e39ae94",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-53.tar.gz",
+                    "sha256": "a58f9fdf4d80f5f972d35e7a467eea7722882e27ed56f13810f0bb57931533ea",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
