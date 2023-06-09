@@ -406,8 +406,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/libkexiv2-23.04.1.tar.xz",
-                    "sha256": "3a15410e0eaea3b3b0ca0fa274448d97e8172b5167a82f106c29dff6ba19e275",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/libkexiv2-23.04.2.tar.xz",
+                    "sha256": "c4e065902fdf9ce33e3812d19d6d19227d7955c0e6d73c6b72cfd536b3880804",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -470,8 +470,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/okular-23.04.1.tar.xz",
-                    "sha256": "1cc470f8695d9ac53163071aa8b78885efe813df77fb6456cd0946d3309c1db7",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/okular-23.04.2.tar.xz",
+                    "sha256": "5f86f2be71c47dcaaf10a21b6bbc6b92cc2c6d8930530d201a06643a34aba825",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -491,8 +491,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/konsole-23.04.1.tar.xz",
-                    "sha256": "b9d1149afbf93cacc2c57c5b641511c871d5e70d929f7290d3bdf16b5b04b698",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/konsole-23.04.2.tar.xz",
+                    "sha256": "acc9565ede884284760e1b04654d2b187da82afde82c8a0411664943f23eecea",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
