@@ -1,0 +1,12 @@
+diff --git a/src/data/org.kde.kile.appdata.xml b/src/data/org.kde.kile.appdata.xml
+index d985f195b1d9bbff02e7fb489755eb2eb9f630d9..c7ad3257575c78f5ed3a3d56a6d0783fae683f9d 100644
+--- a/src/data/org.kde.kile.appdata.xml
++++ b/src/data/org.kde.kile.appdata.xml
+@@ -3,6 +3,7 @@
+   <id>org.kde.kile</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0+</project_license>
++  <developer_name translate="no">KDE</developer_name>
+   <name>Kile</name>
+   <name xml:lang="ar">كايل</name>
+   <name xml:lang="ca">Kile</name>

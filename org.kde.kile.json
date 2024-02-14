@@ -583,7 +583,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "appstream-metadata-fix.patch"
+                    "path": "69.diff"
                 },
                 {
                     "type": "file",
