@@ -538,6 +538,14 @@
                 {
                     "type": "file",
                     "path": "kile.sh"
+                },
+                {
+                    "type": "patch",
+                    "path": "acbc530666d7607df45784992d021cf1e60724d6.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "d8195e931782e39014450d7d508bddd349eb28f1.patch"
                 }
             ],
             "post-install": [
