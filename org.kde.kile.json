@@ -451,8 +451,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.10/cups-2.4.10-source.tar.gz",
-                    "sha256": "d75757c2bc0f7a28b02ee4d52ca9e4b1aa1ba2affe16b985854f5336940e5ad7",
+                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.11/cups-2.4.11-source.tar.gz",
+                    "sha256": "9a88fe1da3a29a917c3fc67ce6eb3178399d68e1a548c6d86c70d9b13651fd71",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 380,
@@ -515,8 +515,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-38.tar.gz",
-                    "sha256": "9edfac2536c605fef76ee8b80343f7aec71ef93e594bf45f51fee72c1832d95d",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-39.tar.gz",
+                    "sha256": "2a0d97c9e3eac09395ea7dd2deef48ac70a74ede9e66a6b8ea38fdb0e055517a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
