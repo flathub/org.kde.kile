@@ -408,8 +408,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/libkexiv2-24.08.1.tar.xz",
-                    "sha256": "27d8b61e05869cfdee685183919cb31442db785d0b440399c8ba846294a7be67",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/libkexiv2-24.08.2.tar.xz",
+                    "sha256": "e29246536dc0af28c46708641614ec7f9e2174e0233ead37f33e99aaba098093",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -430,8 +430,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kdegraphics-mobipocket-24.08.1.tar.xz",
-                    "sha256": "0d94285fcd769043586700c332b82a972959efa63e1f74a8cea221658ffed032",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kdegraphics-mobipocket-24.08.2.tar.xz",
+                    "sha256": "56bfddf24ce745513d6df2c295f119de6870981ebccf8d06a1066822ed7f3995",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -451,8 +451,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.10/cups-2.4.10-source.tar.gz",
-                    "sha256": "d75757c2bc0f7a28b02ee4d52ca9e4b1aa1ba2affe16b985854f5336940e5ad7",
+                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.11/cups-2.4.11-source.tar.gz",
+                    "sha256": "9a88fe1da3a29a917c3fc67ce6eb3178399d68e1a548c6d86c70d9b13651fd71",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 380,
@@ -473,8 +473,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/okular-24.08.1.tar.xz",
-                    "sha256": "b057655c13e4fa566d288730aeb96198aef8a90cb6a1d6a55f566fa5a6b02e89",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/okular-24.08.2.tar.xz",
+                    "sha256": "4089c77d5be60aedbd45da0d4ba319e3909b15a640cd51d361b01d95ad33c8fb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -490,8 +490,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/konsole-24.08.1.tar.xz",
-                    "sha256": "65219e4f6afa09eaf26fd3e91379d07d93960d2f5ce412568400e8b71b0dd708",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/konsole-24.08.2.tar.xz",
+                    "sha256": "ae72ca4e2d9123b9bada99d2d3b01398ff5082b549b38579cf9aa94c2bffd719",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
