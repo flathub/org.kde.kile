@@ -1,0 +1,28 @@
+From d8195e931782e39014450d7d508bddd349eb28f1 Mon Sep 17 00:00:00 2001
+From: Dennis Marttinen <twelho@welho.tech>
+Date: Mon, 16 Sep 2024 12:59:48 +0300
+Subject: [PATCH] Find bibliography tools using base names
+
+This fixes one of the bugs highlighted in https://bugs.kde.org/show_bug.cgi?id=408890, namely that Biber (or any other bibliography backend) can't be configured with an absolute path if desired to be picked up by the automatic detection. The issue stems from comparing the user's input (e.g., `/usr/bin/biber`) to the backend name (e.g., `Biber`) case-insentively, but literally. Changing this to use the base name of the tool command instead resolves the issue.
+---
+ src/kiletoolmanager.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/kiletoolmanager.cpp b/src/kiletoolmanager.cpp
+index 55763ee40..16d1b92b6 100644
+--- a/src/kiletoolmanager.cpp
++++ b/src/kiletoolmanager.cpp
+@@ -687,8 +687,8 @@ KileTool::ToolConfigPair KileTool::Manager::findFirstBibliographyToolForCommand(
+ {
+     // for now we will just select the first suitable tool
+     for(const KileTool::ToolConfigPair& tool : m_bibliographyToolsList) {
+-        const QString toolCommand = commandFor(tool, m_config);
+-        if (QString::compare(command, toolCommand, Qt::CaseInsensitive) == 0) {
++        const QFileInfo toolCommand(commandFor(tool, m_config));
++        if (QString::compare(command, toolCommand.baseName(), Qt::CaseInsensitive) == 0) {
+             return tool;
+         }
+     }
+-- 
+GitLab
+
