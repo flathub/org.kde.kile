@@ -413,8 +413,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/libkexiv2-24.12.2.tar.xz",
-                    "sha256": "f797fd8f442f578de464ba2b861b9d6b2d02e2351a3ffb6aa5e54ce2947c2c8f",
+                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/libkexiv2-24.12.3.tar.xz",
+                    "sha256": "31b8aa103ea0d4d58fc5f1f9517229baf0ab6d02519105ad27205fc1cfc16411",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -435,8 +435,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/kdegraphics-mobipocket-24.12.2.tar.xz",
-                    "sha256": "ea9dfbc69baf5ebe8c482344bdccc980abccbcb397971db21d178922255abb46",
+                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/kdegraphics-mobipocket-24.12.3.tar.xz",
+                    "sha256": "388e47f86095729122886d2e03eb4a7f636d987adb8b2bf309ac2b7df033edad",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -619,8 +619,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-44.tar.gz",
-                    "sha256": "c61646ecfe051abbe158de964f53420c064d6d3e89ddbfe78ad8c265360efc7f",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-45.tar.gz",
+                    "sha256": "8227fdf71ab226e61bb719fe67e1ca2e80a69fee91eee634aacf62057e6ba7c0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
