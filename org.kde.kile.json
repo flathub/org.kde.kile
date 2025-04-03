@@ -12,7 +12,8 @@
         "--socket=cups",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--talk-name=org.freedesktop.Flatpak"
+        "--talk-name=org.freedesktop.Flatpak",
+        "--env=PATH=/app/texlive/bin:/app/texlive/bin/aarch64-linux:/app/texlive/bin/x86_64-linux:/app/bin:/usr/bin"
     ],
     "separate-locales": false,
     "add-extensions": {
