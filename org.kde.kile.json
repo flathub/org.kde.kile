@@ -3,7 +3,7 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
-    "command": "kile.sh",
+    "command": "kile",
     "rename-icon": "kile",
     "finish-args": [
         "--device=dri",
@@ -641,19 +641,10 @@
                     "sha256": "53c6742bd83fb095cbdc898b03fdf8e15ab680a81693ccaf9c5076b93ad1a3ca"
                 },
                 {
-                    "type": "file",
-                    "path": "kile.sh"
-                },
-                {
                     "type": "patch",
                     "path": "appdata.patch"
                 }
             ],
-            "post-install": [
-                "install -d /app/texlive",
-                "install -Dm755 -t /app/bin/ ./kile.sh",
-                "desktop-file-install --dir=/app/share/applications --set-key=Exec --set-value=kile.sh /${FLATPAK_DEST}/share/applications/org.kde.kile.desktop"
-            ]
         }
     ]
 }
