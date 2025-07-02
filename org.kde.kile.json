@@ -289,31 +289,6 @@
             ]
         },
         {
-            "name": "openjpeg",
-            "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "config-opts": [
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "cleanup": [
-                "/bin",
-                "/lib/openjpeg-*"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/uclouvain/openjpeg/archive/v2.5.3.tar.gz",
-                    "sha256": "368fe0468228e767433c9ebdea82ad9d801a3ad1e4234421f352c8b06e7aa707",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 2550,
-                        "stable-only": true,
-                        "url-template": "https://github.com/uclouvain/openjpeg/archive/v$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "poppler-data",
             "buildsystem": "cmake-ninja",
             "builddir": true,
