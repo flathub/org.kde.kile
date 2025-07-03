@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kile",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "kile.sh",
     "rename-icon": "kile",
@@ -48,17 +48,22 @@
         },
         {
             "name": "gnustep",
-            "buildsystem": "autotools",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./configure --prefix=/app",
+                "make -j $FLATPAK_BUILDER_N_JOBS install",
+                "ls /app/include"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/gnustep/libs-base/releases/download/base-1_31_0/gnustep-base-1.31.0.tar.gz",
-                    "sha256": "d493ed2ba2a32f559f94e2ae5e339c440ae77d481dff1eb0d51eeac4d9127e33",
+                    "url": "https://github.com/gnustep/libs-base/archive/refs/tags/base-1_31_1.tar.gz",
+                    "sha256": "612e4415efc486c9e7017b00b28b0e122dc739d29b8e5d57ce79bf1a86a9862b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9105,
                         "stable-only": true,
-                        "url-template": "https://github.com/gnustep/libs-base/releases/download/base-$version/gnustep-base-1.$patch.0.tar.gz"
+                        "url-template": "https://github.com/gnustep/libs-base/archive/refs/tags/base-$version.tar.gz"
                     }
                 }
             ]
@@ -66,16 +71,34 @@
         {
             "name": "unarchiver",
             "buildsystem": "simple",
+            "build-options": {
+                "cflags": "-Wno-int-conversion"
+            },
             "build-commands": [
-                "sed -s -i 's#/usr/include/GNUstep#/app/include#g' */Makefile.linux && cd XADMaster && make -j $FLATPAK_BUILDER_N_JOBS -f Makefile.linux",
+                "sed -s -i 's#/usr/include/GNUstep#/app/include#g' */Makefile.linux",
+                "make -C XADMaster -j $FLATPAK_BUILDER_N_JOBS -f Makefile.linux",
                 "install -m755 XADMaster/unar XADMaster/lsar /app/bin/"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://cdn.theunarchiver.com/downloads/TheUnarchiverSource.zip",
-                    "sha256": "ac4cedf9b49375c0f805bda010fa03629d05ab283a0a8e35bf2dd01ae477e0a1",
-                    "strip-components": 0
+                    "url": "https://github.com/MacPaw/XADMaster/archive/refs/tags/v1.10.8.tar.gz",
+                    "sha256": "652953d7988b3c33f4f52b61c357afd1a7c2fc170e5e6e2219f4432b0c4cd39f",
+                    "strip-components": 1,
+                    "dest": "XADMaster",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 5041,
+                        "stable-only": true,
+                        "tag-template": "v$version"
+                    }
+                },
+                {
+                    "type": "archive",
+                    "url": "https://github.com/MacPaw/universal-detector/archive/refs/tags/1.1.tar.gz",
+                    "sha256": "8e8532111d0163628eb828a60d67b53133afad3f710b1967e69d3b8eee28a811",
+                    "strip-components": 1,
+                    "dest": "UniversalDetector"
                 }
             ]
         },
@@ -266,31 +289,6 @@
                         "project-id": 1724,
                         "stable-only": true,
                         "url-template": "http://libspectre.freedesktop.org/releases/libspectre-$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "openjpeg",
-            "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "config-opts": [
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "cleanup": [
-                "/bin",
-                "/lib/openjpeg-*"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/uclouvain/openjpeg/archive/v2.5.3.tar.gz",
-                    "sha256": "368fe0468228e767433c9ebdea82ad9d801a3ad1e4234421f352c8b06e7aa707",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 2550,
-                        "stable-only": true,
-                        "url-template": "https://github.com/uclouvain/openjpeg/archive/v$version.tar.gz"
                     }
                 }
             ]
