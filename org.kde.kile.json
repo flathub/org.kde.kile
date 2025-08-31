@@ -376,8 +376,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.5.tar.gz",
-                    "sha256": "e1671f744e379a87ba0c984617406fdf8c0ad0c594e5122f525b2fb7c28d394d",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.6.tar.gz",
+                    "sha256": "9d481117b97afa5324bf3ea0ad79f5c2939ae94ba0d0f5f8eb23aee16d9ec58d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -617,8 +617,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.2-2.tar.gz",
-                    "sha256": "63859193b0e2a9586157475024668afcf711d4b20ecd8c6111880e28f796a533",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.2-3.tar.gz",
+                    "sha256": "f5a1b4a796b81ed000bb1484d43a75cd41374b063dc6488208b32aec4bf05d7b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
