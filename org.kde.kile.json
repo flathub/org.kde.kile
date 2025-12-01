@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kile",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "command": "kile.sh",
     "rename-icon": "kile",
@@ -65,6 +65,10 @@
                         "stable-only": true,
                         "url-template": "https://github.com/gnustep/libs-base/archive/refs/tags/base-$version.tar.gz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "gnustep-base-fix_GCC15.patch"
                 }
             ]
         },
@@ -204,7 +208,9 @@
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
+
             ],
             "sources": [
                 {
