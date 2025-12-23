@@ -94,7 +94,7 @@
                         "type": "anitya",
                         "project-id": 5041,
                         "stable-only": true,
-                        "tag-template": "v$version"
+                        "url-template": "https://github.com/MacPaw/XADMaster/archive/refs/tags/v$version.tar.gz"
                     }
                 },
                 {
