@@ -23,10 +23,14 @@
     },
     "cleanup": [
         "/include",
+        "/lib/cmake",
         "/lib/pkgconfig",
-        "/lib/*.a",
-        "/lib/*.la",
-        "/share/man"
+        "/share/doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
     ],
     "modules": [
         {
