@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Orc/discount/archive/v3.0.1.2.tar.gz",
-                    "sha256": "4ea6cc8782c6508b3051c469ed7a1b6ca20b023c2a0c26ccd9c83bc7e61dfc16",
+                    "url": "https://github.com/Orc/discount/archive/v3.0.1.3.tar.gz",
+                    "sha256": "ec04f366cd0a5036598c6a0bf4f7f2582d8ff04b31e81121314b8fde6db6899d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 14521,
@@ -234,8 +234,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/djvu/djvulibre-3.5.29.tar.gz",
-                    "sha256": "d3b4b03ae2bdca8516a36ef6eb27b777f0528c9eda26745d9962824a3fdfeccf",
+                    "url": "https://downloads.sourceforge.net/djvu/djvulibre-3.5.30.tar.gz",
+                    "sha256": "ee5e457d4cfebe566f94b99e5e3d3cc7f5c79ddb741c2ac2ba2e456f00329644",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 10159,
@@ -264,8 +264,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10070/ghostscript-10.07.0.tar.gz",
-                    "sha256": "ed6ea62022e3f4d5a6569b6efc9361b63a6d118bfcad8f0beb897c37885b5cad",
+                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10071/ghostscript-10.07.1.tar.gz",
+                    "sha256": "2fc74362f9be6fae1b0a65d38fdcfd4f0b518cc3b07c5581fb661eb4d2e15251",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1157,
@@ -343,8 +343,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-26.04.0.tar.xz",
-                    "sha256": "b0955163114af96bc0106f68cb24daf973a629462453d8b82775f81b0d4e0693",
+                    "url": "https://poppler.freedesktop.org/poppler-26.06.0.tar.xz",
+                    "sha256": "4cb4e5a3dc8cb5eec751c8a23c8ba19f61f96dedc0cd07d2aee6b0c8e2cf6ba4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -421,8 +421,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/libkexiv2-26.04.0.tar.xz",
-                    "sha256": "be2057aa2b5287d9f64c9c64260f9d125827abaf10fe4b786b39f59de3b2c319",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/libkexiv2-26.04.2.tar.xz",
+                    "sha256": "fdd8b2ca473339281676bccd1be1d6bf7df2f7644822c52a5cb73af8535a854e",
                     "x-checker-data": {
                         "is-important": true,
                         "type": "anitya",
@@ -466,8 +466,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.16/cups-2.4.16-source.tar.gz",
-                    "sha256": "0339587204b4f9428dd0592eb301dec0bf9ea6ea8dce5d9690d56be585aba92d",
+                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.19/cups-2.4.19-source.tar.gz",
+                    "sha256": "820984b12a67f98705785aae2dd1347fe0ac097828001d4583ff64574aed6389",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 380,
@@ -560,8 +560,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/okular-26.04.0.tar.xz",
-                    "sha256": "030d54cf3971258dcddd503fd9ad66f11aefb804c72bedd2ab5bf8777fb7f1f3",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/okular-26.04.2.tar.xz",
+                    "sha256": "d51cc5be96f6e491181608b0115af37d20ee15b080b6e42c0c00e29b9e058abe",
                     "x-checker-data": {
                         "is-important": true,
                         "type": "anitya",
@@ -578,8 +578,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/konsole-26.04.0.tar.xz",
-                    "sha256": "a413aea8c336b2f452f2daeb9685de6c4a17ba8bb2c1a8a54c3c449693f922eb",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/konsole-26.04.2.tar.xz",
+                    "sha256": "d81a696d6a316d0c8fabe3cecd83783f656ee97c70ced89513b3fd16e9d216ac",
                     "x-checker-data": {
                         "is-important": true,
                         "type": "anitya",
