@@ -191,9 +191,9 @@
                     ]
                 },
                 {
-                    "type": "archive",
-                    "url": "http://www.jedrea.com/chmlib/chmlib-0.40.tar.bz2",
-                    "sha256": "3449d64b0cf71578b2c7e3ddc048d4af3661f44a83941ea074a7813f3a59ffa3",
+                    "type": "git",
+                    "url": "https://github.com/jedwing/CHMLib",
+                    "commit": "2bef8d063ec7d88a8de6fd9f0513ea42ac0fa21f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17678,
