@@ -593,7 +593,12 @@
         {
             "name": "imagemagick",
             "config-opts": [
-                "--disable-static"
+                "--enable-shared",
+                "--disable-static",
+                "--disable-docs",
+                "--with-modules",
+                "--with-threads",
+                "--with-png"
             ],
             "cleanup": [
                 "/etc",
@@ -604,13 +609,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.2-19.tar.gz",
-                    "sha256": "ad407d0b482ac63e51ab311d16244f44d352f2b89e0cb4cb66c9f0cf6d948ecd",
+                    "url": "https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-35.tar.gz",
+                    "sha256": "40b6fefa88fe16ca5a4b3d3db5133eaebfb0157f21f98530bde8aec5dd5b0776",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
                         "stable-only": true,
-                        "url-template": "https://imagemagick.org/archive/releases/ImageMagick-$version.tar.gz"
+                        "url-template": "https://github.com/ImageMagick/ImageMagick/archive/refs/tags/$version.tar.gz"
                     }
                 }
             ]
